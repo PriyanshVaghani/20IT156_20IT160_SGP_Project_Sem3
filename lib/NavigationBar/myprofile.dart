@@ -52,15 +52,18 @@ class _ProfileState extends State<Profile> {
               height: 200,
               width: 100,
               child: Column(
-                children: const [
-                  TextField(
+                children: [
+                  TextFormField(
                     decoration: InputDecoration(labelText: 'Name'),
+                    controller: userNameController,
                   ),
                   TextField(
                     decoration: InputDecoration(labelText: 'Mobile Number'),
+                    controller: mobileNumberController,
                   ),
                   TextField(
                     decoration: InputDecoration(labelText: 'Address'),
+                    controller: addressController,
                   )
                 ],
               ),
@@ -178,7 +181,7 @@ class _ProfileState extends State<Profile> {
               height: 40,
               width: MediaQuery.of(context).size.width - 80,
               decoration: BoxDecoration(
-                color: Colors.white54,
+                color: Colors.white70,
                 borderRadius: BorderRadius.all(Radius.circular(5)),
               ),
               child: Row(
@@ -223,7 +226,7 @@ class _ProfileState extends State<Profile> {
               height: 40,
               width: MediaQuery.of(context).size.width - 80,
               decoration: BoxDecoration(
-                color: Colors.black26,
+                color: Colors.white70,
                 borderRadius: BorderRadius.all(Radius.circular(5)),
               ),
               child: Row(
@@ -247,7 +250,7 @@ class _ProfileState extends State<Profile> {
               height: 40,
               width: MediaQuery.of(context).size.width - 80,
               decoration: BoxDecoration(
-                color: Colors.black26,
+                color: Colors.white70,
                 borderRadius: BorderRadius.all(Radius.circular(5)),
               ),
               child: Row(
@@ -271,7 +274,7 @@ class _ProfileState extends State<Profile> {
               height: 40,
               width: MediaQuery.of(context).size.width - 80,
               decoration: BoxDecoration(
-                color: Colors.black26,
+                color: Colors.white70,
                 borderRadius: BorderRadius.all(Radius.circular(5)),
               ),
               child: Row(
@@ -295,7 +298,7 @@ class _ProfileState extends State<Profile> {
               height: 40,
               width: MediaQuery.of(context).size.width - 80,
               decoration: BoxDecoration(
-                color: Colors.black26,
+                color: Colors.white70,
                 borderRadius: BorderRadius.all(Radius.circular(5)),
               ),
               child: Row(

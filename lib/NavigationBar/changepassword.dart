@@ -62,6 +62,11 @@ class _ChangePasswordState extends State<ChangePassword> {
           padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
           child: ListView(
             children: [
+              Center(
+                  child: Text(
+                'If you want change your password',
+                style: TextStyle(fontSize: 18),
+              )),
               Container(
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 child: TextFormField(
